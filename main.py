@@ -1,2 +1,2 @@
 print("Hello World!")
-print("더워요....")
+print("강해지겠습니다. 반성합니다.")
