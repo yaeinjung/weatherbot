@@ -16,6 +16,8 @@ class HelloPlugin(Plugin):
             self.outputs.append([data["channel"], "우리엄마:woman: 매일내게 말했어 언제나 남자:male-police-officer:조심하라고 사랑은 마치 불장난:fire:같아서 다치니까~"])
         elif "더워요" in data["text"]:
             self.outputs.append([data["channel"], "강해지세요."])
+        elif "추워요" in data["text"]:
+            self.outputs.append([data["channel"], "CM님 에어컨 꺼주세요"])
 config = {
     "SLACK_TOKEN": SLACK_TOKEN,
     "ACTIVE_PLUGINS": ["main.HelloPlugin"]
